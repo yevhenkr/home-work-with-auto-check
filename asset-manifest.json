@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/home-work-with-auto-check/static/css/main.f2b61b9e.css",
+    "main.js": "/home-work-with-auto-check/static/js/main.e5abeb19.js",
+    "static/js/787.177e23c2.chunk.js": "/home-work-with-auto-check/static/js/787.177e23c2.chunk.js",
+    "index.html": "/home-work-with-auto-check/index.html",
+    "main.f2b61b9e.css.map": "/home-work-with-auto-check/static/css/main.f2b61b9e.css.map",
+    "main.e5abeb19.js.map": "/home-work-with-auto-check/static/js/main.e5abeb19.js.map",
+    "787.177e23c2.chunk.js.map": "/home-work-with-auto-check/static/js/787.177e23c2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2b61b9e.css",
+    "static/js/main.e5abeb19.js"
+  ]
+}
