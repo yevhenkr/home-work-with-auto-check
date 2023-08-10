@@ -15,6 +15,7 @@ beforeEach(() => {
 
 test('filter by all', () => {
     const newState = filterAffairs(initialState, 'all')
+    console.log("|||||||||||||||||||| = " +newState)
     expect(newState.length).toBe(5)
 })
 test('filter by high', () => {
