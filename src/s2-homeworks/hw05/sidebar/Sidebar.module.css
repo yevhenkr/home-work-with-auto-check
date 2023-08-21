@@ -1,9 +1,12 @@
 .sidebar {
-    visibility: hidden;
     width: 320px;
     background-color: #ffffff;
     height: 100vh;
     z-index: 1;
+
+    visibility: visible;
+    position: absolute;
+    top: 0
 }
 
 sidebar::after {
@@ -18,9 +21,10 @@ sidebar::after {
 }
 
 .sidebarOpen {
-    visibility: visible;
+}
 
-    position: absolute;
+.sidebarClose {
+    display: none;
 }
 
 .sidebar.open {

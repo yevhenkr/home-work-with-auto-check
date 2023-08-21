@@ -14,7 +14,7 @@ export const Sidebar: FC<PropsType> = ({open, handleClose}) => {
         <>
             {open && <div className={s.background} onClick={handleClose}/>}
 
-            <aside className={`${s.sidebar} ${open ? s.sidebarOpen : ''}`}>
+            <aside className={`${s.sidebar} ${open ? "" : s.sidebarClose}`}>
                 <button className={s.close} onClick={handleClose}>
                     <img
                         src={closeIcon}
