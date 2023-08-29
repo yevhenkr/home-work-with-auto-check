@@ -73,5 +73,4 @@ const SuperInputText: React.FC<SuperInputTextPropsType> = (
         </div>
     )
 }
-
 export default SuperInputText
