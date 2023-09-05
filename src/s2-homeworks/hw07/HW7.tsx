@@ -24,6 +24,8 @@ const arr: СheckeType[] = [
 
 const HW7 = () => {
     const [value, onChangeOption] = useState<number>(1) // селект и радио должны работать синхронно
+    console.log("super-select = ",arr)
+
     return (
         <div id={'hw7'}>
             <div className={s2.hwTitle}>Homework #7</div>

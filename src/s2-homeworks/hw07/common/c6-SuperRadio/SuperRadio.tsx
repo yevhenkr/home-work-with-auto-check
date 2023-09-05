@@ -34,14 +34,15 @@ const SuperRadio: React.FC<SuperRadioPropsType> = ({
                                                        ...restProps
                                                    }) => {
     const onChangeCallback = (id: number) => {
+        console.log(id, "ID")
         if (onChangeOption) {
             onChangeOption(id)
         }
     }
 
-    const finalRadioClassName = s.radio + (className ? ' ' + className : '')
-    const spanClassName = s.span + (spanProps?.className ? ' ' + spanProps.className : '')
-
+    const finalRadioClassName =  `${s.radio} ${className}`
+    const spanClassName = `${s.label} ${spanProps?.className && spanProps?.className} `
+    console.log("super-radio = ",options)
     const mappedOptions: any[] = options
         ? options.map((o) => (
             <label key={name + '-' + o.id} className={s.label}>
