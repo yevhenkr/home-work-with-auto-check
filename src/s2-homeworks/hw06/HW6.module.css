@@ -5,5 +5,17 @@
 }
 
 .editableSpanContainer {
+    position: relative;
     color: rgba(0, 128, 255, 1);
+}
+
+.editableSpanContainer:after {
+    content: '';
+    position: absolute;
+    bottom: -336px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(217, 217, 217, 1);
+    transform: translateY(245px)
 }
