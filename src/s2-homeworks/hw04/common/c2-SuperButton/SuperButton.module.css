@@ -10,6 +10,9 @@
     color: white;
 }
 
+.button:disabled {
+    color: white;
+}
 .secondary {
     background-color: #fff;
     color: rgba(0, 102, 204, 1);
@@ -60,7 +63,4 @@
 
 .red:active {
     background: rgba(178, 18, 50, 1);
-}
-
-.button:disabled {
 }
