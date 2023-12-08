@@ -31,7 +31,6 @@ const HW14 = () => {
     const [techs, setTechs] = useState<string[]>([])
 
     const sendQuery = (value: string) => {
-        if (value.length > 0) {
             setLoading(true)
             getTechs(value)
                 .then((res) => {
@@ -42,7 +41,7 @@ const HW14 = () => {
                     // делает студент
                     // сохранить пришедшие данные
                 })
-        }
+        // }
     }
 
     const onChangeText = (value: string) => {
@@ -56,7 +55,7 @@ const HW14 = () => {
         const params = Object.fromEntries(searchParams)
         sendQuery(params.find || '')
         setFind(params.find || '')
-    }, [techs])
+    }, [])
 
     const mappedTechs = techs.map(t => (
         <div key={t} id={'hw14-tech-' + t} className={s.tech}>
