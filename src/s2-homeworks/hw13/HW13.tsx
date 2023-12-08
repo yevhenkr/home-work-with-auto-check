@@ -40,8 +40,8 @@ const HW13 = () => {
                 setCode('Код 200!')
                 setImage(success200)
                 // дописать
-                setInfo('...всё ок)\n' +
-                    'код 200 - обычно означает что скорее всего всё ок)')
+                setText('...всё ок)')
+                setInfo('код 200 - обычно означает что скорее всего всё ок)')
                 setButtonsDisabled(false)
 
                 console.log("then")
